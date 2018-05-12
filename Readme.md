@@ -76,6 +76,7 @@ These operators are much like the RxSwift & RxCocoa core operators, but provide 
 * [count](#count)
 * [partition](#partition)
 * [bufferWithTrigger](#bufferWithTrigger)
+* [Observable.merge(with:)](#mergewith)
 
 There are two more available operators for `materialize()`'d sequences:
 
@@ -502,7 +503,7 @@ observableService("Foo", 0)
     .disposed(by: disposeBag)
 ```
 
-#### zipWith
+#### zip(with:)
 
 Convenience version of `Observable.zip(_:)`. Merges the specified observable sequences into one observable sequence by using the selector function whenever all
  of the observable sequences have produced an element at a corresponding index.
@@ -619,6 +620,25 @@ let trigger = Observable.of(signalAtThreeSeconds, signalAtFiveSeconds).merge()
 let buffered = observable.bufferWithTrigger(trigger)
 buffered.subscribe { print($0) }
 // prints next([0, 1, 2]) @ 3, next([3, 4]) @ 5
+```
+
+#### merge(with:)
+
+Convenience version of `Observable.merge(_:)`. Merges elements from the observable sequence with those of a different observable sequences into a single observable sequence.
+
+```swift
+let oddStream = Observable.of(1, 3, 5)
+let evenStream = Observable.of(2, 4, 6)
+let otherStream = Observable.of(1, 5, 6)
+
+oddStream.merge(with: evenStream, otherStream)
+    .subscribe(onNext: { result in
+        print(result)
+    })
+```
+
+```
+1 2 1 3 4 5 5 6 6
 ```
 
 A live demonstration is available in the Playground.

@@ -2,6 +2,7 @@ Changelog
 =========
 
 - added `reachedBottom(offset:)` for `UIScrollView`
+- added `merge(with:)` for `Observable`
 
 5.0.0
 -----
