@@ -17,7 +17,7 @@ import RxSwiftExt
  Merges elements from observable sequences into a single observable sequence.
 
  */
-example("mergeWith") {
+example("merge(with:)") {
     let oddNumbers = [1, 3, 5, 7, 9]
     let evenNumbers = [2, 4, 6, 8, 10]
     let otherNumbers = [1, 5 ,6, 2]
