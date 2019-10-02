@@ -30,6 +30,9 @@ Carthage
 # AppCode
 .idea
 
+# SPM
+.build
+
 # Cocoapods
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
@@ -41,3 +44,4 @@ Carthage
 Pods/
 Podfile.lock
 Demo/RxSwiftExtDemo/RxSwiftExtPlayground.playground/Pages/not.xcplaygroundpage/timeline.xctimeline
+Package.resolved
