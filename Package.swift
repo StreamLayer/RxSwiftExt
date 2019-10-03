@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 
 import PackageDescription
 
@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "RxSwiftExt", targets: ["RxSwiftExt"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0")),
+        .package(url: "https://github.com/StreamLayer/RxSwift.git", .upToNextMajor(from: "5.0.1-slr.3417")),
     ],
     targets: [
         .target(name: "RxSwiftExt", dependencies: ["RxSwift", "RxCocoa"], path: "Source"),
