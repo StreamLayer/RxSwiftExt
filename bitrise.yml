@@ -15,12 +15,6 @@ workflows:
         - content: |-
             #!/bin/bash
             set -ex
-
-            ### Define constants
-            ARTIFACT=RxSwiftExt.framework.zip
-            OWNER=streamlayer
-            REPO=RxSwift
-            UPSTREAM=git@github.com:RxSwiftCommunity/RxSwiftExt.git
             
             ### Cleanup, build, archive
             rm -rf ./Carthage/ ./DerivedData
@@ -41,3 +35,8 @@ workflows:
             # Remove upstream to make 'hub' upload to 'origin' repo rather than default 'upstream'
             git remote remove upstream
             hub release create -a $ARTIFACT -m $RELEASE $RELEASE
+
+app:
+  envs:
+  - ARTIFACT: "RxSwiftExt.framework.zip"
+  - UPSTREAM: "git@github.com:RxSwiftCommunity/RxSwiftExt.git"
