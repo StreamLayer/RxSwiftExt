@@ -45,3 +45,5 @@ Pods/
 Podfile.lock
 Demo/RxSwiftExtDemo/RxSwiftExtPlayground.playground/Pages/not.xcplaygroundpage/timeline.xctimeline
 Package.resolved
+
+RxSwiftExt.framework.zip
