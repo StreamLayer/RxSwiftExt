@@ -1,0 +1,10 @@
+RxSwiftExt-tvOS:
+  project: RxSwiftExt.xcworkspace
+  sdks:
+  - appletvos
+  - appletvsimulator
+RxSwiftExt-iOS:
+  project: RxSwiftExt.xcworkspace
+  sdks:
+  - iphonesimulator
+  - iphoneos
