@@ -49,6 +49,6 @@ workflows:
 app:
   envs:
   - DIR: "Source"
-  - PRODUCT_NAME: "ReSwiftExt"
+  - PRODUCT_NAME: "RxSwiftExt"
   - PREFIX: "SLR_"
   - REPORT: "./report.json"
