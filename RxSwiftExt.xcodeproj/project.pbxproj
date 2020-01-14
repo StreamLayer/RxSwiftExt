@@ -22,11 +22,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		188C6DA31C47B4240092101A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C6DA21C47B4240092101A /* RxSwift.framework */; };
 		1958B5F1216768D900CAF1D3 /* unwrap+SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1958B5F0216768D900CAF1D3 /* unwrap+SharedSequence.swift */; };
 		1958B5F621676ECB00CAF1D3 /* unrwapTests+SharedSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1958B5F521676ECB00CAF1D3 /* unrwapTests+SharedSequence.swift */; };
 		1A8741AC20745A91004BB762 /* UIViewPropertyAnimatorTests+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8741AB20745A91004BB762 /* UIViewPropertyAnimatorTests+Rx.swift */; };
-		1AA8395B207451D6001C49ED /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA8395A207451D5001C49ED /* RxCocoa.framework */; };
 		3D11958B1FCAD9AE0095134B /* and.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE5FB1FBBAE3900DF47F9 /* and.swift */; };
 		3D11958C1FCAD9AF0095134B /* and.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBDE5FB1FBBAE3900DF47F9 /* and.swift */; };
 		3D638DEC1DC2B2D50089A590 /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188C6D911C47B2B20092101A /* RxSwiftExt.framework */; };
@@ -82,7 +80,6 @@
 		58C54B6E1B4C678DE2378145 /* ZipWithTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C54E184069446EDEE748F9 /* ZipWithTest.swift */; };
 		5A1DDEBF1ED58F8600F2E4B1 /* pausableBuffered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DDEBE1ED58F8600F2E4B1 /* pausableBuffered.swift */; };
 		5A5FCE411ED5AEC60052A9B5 /* PausableBufferedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1DDEB81ED58D2800F2E4B1 /* PausableBufferedTests.swift */; };
-		62512C661F0EAF670083A89F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62512C581F0EAED20083A89F /* RxSwift.framework */; };
 		62512C671F0EAF820083A89F /* distinct+RxCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F336E71E70CBF700D35D38 /* distinct+RxCocoa.swift */; };
 		62512C681F0EAF850083A89F /* mapTo+RxCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386076E1E6F1C0A000361DE /* mapTo+RxCocoa.swift */; };
 		62512C691F0EAF850083A89F /* not+RxCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538607EF1E6F589E000361DE /* not+RxCocoa.swift */; };
@@ -208,7 +205,6 @@
 		DC612872209E80810053CBB7 /* mapMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC612871209E80810053CBB7 /* mapMany.swift */; };
 		DC612873209E80810053CBB7 /* mapMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC612871209E80810053CBB7 /* mapMany.swift */; };
 		DC612874209E80810053CBB7 /* mapMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC612871209E80810053CBB7 /* mapMany.swift */; };
-		E36BDFBB1F387571008C9D56 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36BDFB91F387571008C9D56 /* RxSwift.framework */; };
 		E36BDFBD1F387610008C9D56 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36BDFB91F387571008C9D56 /* RxSwift.framework */; };
 		E36BDFBE1F387615008C9D56 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36BDFBA1F387571008C9D56 /* RxTest.framework */; };
 		E39C41D81F18B086007F2ACD /* distinct+RxCocoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F336E71E70CBF700D35D38 /* distinct+RxCocoa.swift */; };
@@ -398,8 +394,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA8395B207451D6001C49ED /* RxCocoa.framework in Frameworks */,
-				188C6DA31C47B4240092101A /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +412,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62512C661F0EAF670083A89F /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +429,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36BDFBB1F387571008C9D56 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
