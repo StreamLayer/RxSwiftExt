@@ -1,1 +1,1 @@
-{"identifiers":["FromAsyncError","RepeatBehavior","FilterMap"],"products":["RxSwiftExt"],"prefix":"SLR_","fnReplace":[]}
+{"identifiers":["FilterMap","RepeatBehavior","FromAsyncError"],"products":["RxSwiftExt"],"prefix":"SLR_","fnReplace":[]}
